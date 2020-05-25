@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cocina Economica "Chirimole"</title>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-database.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="firebase.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  </head>
+  <body  background="fondos/update1.png">
+    <div class="container">
+      
+   <img src="fondos/mole6.png" style="width: 250px;" class="rounded mx-auto d-block" alt="">
+      
+      
+      <a class="btn btn-success" href="add.html">Agregar</a>
+      <br><br>
+      <table class="table table-dark table-striped" id="table"> 
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>nombre</th>
+          <th>precio</th>
+          <th>tipo</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody id='table_body'></tbody>
+      
+    </table>
+    </div>
+    
+  </body>
+</html>
